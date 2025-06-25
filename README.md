@@ -23,7 +23,7 @@ class Student: OrderSpecifiable {
 
 #### Add a parameter to your initializer(s) for either the position property (`Int`), or for the `OrderSpecifier` object.  
 
-`Int` parameter;
+`Int` parameter:
 ```
 init(position: Int) {
     self.position = position
