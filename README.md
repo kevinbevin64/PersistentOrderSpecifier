@@ -1,5 +1,9 @@
 # PersistentOrderSpecifier
 
+## Purpose
+
+Models persisted by SwiftData are stored in an unordered fashion. When fetched using `@Query`, they are unordered and may even spontaneously reorder. My goal is to provide a stable and predicatable ordering of models to get rid of spontaneous reordering behavior. 
+
 ## Manual control over SwiftData models
 
 ### The motivation
